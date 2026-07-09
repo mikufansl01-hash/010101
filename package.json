@@ -5,12 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "echo Static site ready",
+    "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
     "serve:static": "node server.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
+    "ogl": "latest",
     "vite": "latest",
     "react": "latest",
     "react-dom": "latest",

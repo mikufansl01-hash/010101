@@ -1,5 +1,5 @@
-import React from "https://esm.sh/react@19.1.0";
-import { createRoot } from "https://esm.sh/react-dom@19.1.0/client";
+import React from "react";
+import { createRoot } from "react-dom/client";
 import {
   ArrowUpRight,
   BarChart3,
@@ -11,8 +11,9 @@ import {
   Sparkles,
   Target,
   Workflow,
-} from "https://esm.sh/lucide-react@0.468.0";
-import { Renderer, Program, Mesh, Triangle } from "https://esm.sh/ogl@1.0.11";
+} from "lucide-react";
+import { Renderer, Program, Mesh, Triangle } from "ogl";
+import "./styles.css";
 
 const GlareHover = ({
   width = "500px",
